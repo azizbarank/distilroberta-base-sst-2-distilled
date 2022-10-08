@@ -8,7 +8,7 @@ This is the distilled version of the [RoBERTa](https://huggingface.co/textattack
 The final distilled model was able to achieve 92% accuracy on the SST-2 dataset. Given the original RoBERTa achieves 94.8% accuracy on the same dataset with much more parameters (125M) and that this distilled version is nearly twice as fast as it is, the accuracy is impressive.
 
 
-## Training Results after Hyperparameter Tuning
+## Final Training Results after Hyperparameter Tuning
 |       Epoch       |  Training Loss  |  Validation Loss  |   Accuracy   |
 | ----------------- |   ------------  |     ---------     |  ----------  |
 |1                  |    0.144000     |   0.379220        |   0.907110   |
