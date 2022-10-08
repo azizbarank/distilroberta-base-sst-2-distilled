@@ -5,7 +5,7 @@ This is the distilled version of the [RoBERTa](https://huggingface.co/textattack
 ## Comparison to the original RoBERTa model:
 
 
-The final distilled model was able to achieve 91.6% accuracy on the SST-2 dataset. Given the original RoBERTa achieves 94.8% accuracy on the same dataset with much more parameters (125M) and that this distilled version is nearly twice as fast as it is, the accuracy is impressive.
+The final distilled model was able to achieve 92% accuracy on the SST-2 dataset. Given the original RoBERTa achieves 94.8% accuracy on the same dataset with much more parameters (125M) and that this distilled version is nearly twice as fast as it is, the accuracy is impressive.
 
 
 ## Evaluation & Training Results
@@ -33,5 +33,4 @@ tokenizer = AutoTokenizer.from_pretrained("azizbarank/distilroberta-base-sst2-di
 model = AutoModelForSequenceClassification.from_pretrained("azizbarank/distilroberta-base-sst2-distilled")
 ```
 ## Notes: 
-* The code used to obtain this model is available in the repository. For readability, it was uploaded as a Markdown file.
 * The link to the model: https://huggingface.co/azizbarank/distilroberta-base-sst2-distilled
